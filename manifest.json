@@ -1,0 +1,36 @@
+{
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"name": "星球伴侣 - 知识星球助手（学习修复版）",
+	"description": "简单好用的知识星球效率工具，让你一键批量下载知识星球的文件，支持日期筛选功能",
+	"version": "1.1.7",
+	"manifest_version": 3,
+	"permissions": ["downloads", "storage"],
+	"icons": {
+		"16": "assets/icons/icon_16.png",
+		"32": "assets/icons/icon_32.png",
+		"48": "assets/icons/icon_48.png",
+		"128": "assets/icons/icon_128.png"
+	},
+	"action": {
+		"default_popup": "popup/index.html",
+		"default_title": "星球伴侣 - 知识星球助手（学习修复版）",
+		"default_icon": {
+			"16": "assets/icons/icon_16.png",
+			"32": "assets/icons/icon_32.png",
+			"48": "assets/icons/icon_48.png",
+			"128": "assets/icons/icon_128.png"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://wx.zsxq.com/*"],
+			"js": ["content/main.js"],
+			"run_at": "document_idle",
+			"css": ["content/main.f3e3e22b.css"]
+		}
+	],
+	"background": {
+		"service_worker": "background/main.js"
+	},
+	"options_page": "options/index.html"
+}
