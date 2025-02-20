@@ -4,7 +4,7 @@
 
 ## 使用方法
 
-下载压缩包，并且解压，并在浏览器中使用开发者模式加载解压后的文件夹即可。可以参考
+下载[压缩包](https://github.com/shiquda/zsxq-dl-fix/archive/refs/heads/main.zip)，并且解压，并在浏览器中使用开发者模式加载解压后的文件夹即可。可以参考
 
 <https://github.com/ohnonoyesyes/zsxq_dl>
 
