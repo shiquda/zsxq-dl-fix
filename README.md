@@ -11,3 +11,7 @@
 ## 感谢
 
 <https://github.com/ohnonoyesyes/zsxq_dl>
+
+## 其他你可能会用到的工具
+
+https://github.com/doscriptsite/ZSXQ-Spider
